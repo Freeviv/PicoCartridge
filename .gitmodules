@@ -1,0 +1,6 @@
+[submodule "pcb/external/kicad-gamepaks"]
+	path = pcb/external/kicad-gamepaks
+	url = https://github.com/djedditt/kicad-gamepaks.git
+[submodule "pcb/external/RP2350_KiCad"]
+	path = pcb/external/RP2350_KiCad
+	url = https://github.com/HDR/RP2350_KiCad.git

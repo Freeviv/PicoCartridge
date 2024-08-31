@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RP2350_KiCad")(type "KiCad")(uri "${KIPRJMOD}/../external/RP2350_KiCad")(options "")(descr "RP2350 Footprints"))
+  (lib (name "Connector_GameBoy")(type "KiCad")(uri "${KIPRJMOD}/../external/kicad-gamepaks/modules/Connector_GameBoy.pretty")(options "")(descr "Gameboy Cartridge Footprints"))
+)

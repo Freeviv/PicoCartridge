@@ -1,0 +1,223 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "369b8492-ac84-4ba1-9646-4010d0ed9f44")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 25.4)
+		(size 39.37 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02eb5f96-8983-4900-a047-3098322cb1f3")
+		(property "Sheetname" "PSU"
+			(at 21.59 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 21.59 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 64.77)
+		(size 39.37 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f37d299-ac03-42da-8fb5-807666d0a8d6")
+		(property "Sheetname" "GBA Bus"
+			(at 162.56 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gba_bus.kicad_sch"
+			(at 162.56 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GBA_Bus" bidirectional
+			(at 162.56 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd4166d0-8f72-43d3-a5c5-0d7215784bb6")
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 62.23)
+		(size 29.21 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73d0ecf8-0dc1-46ca-9d60-4e00cfae362a")
+		(property "Sheetname" "USB"
+			(at 21.59 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 21.59 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_BUS" bidirectional
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9445746a-613d-4785-a804-15d3432ab21e")
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 25.4)
+		(size 48.26 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "864b71b1-fdd0-4b9b-bab0-5640e9a99f9f")
+		(property "Sheetname" "Memory"
+			(at 160.02 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 160.02 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 25.4)
+		(size 43.18 60.96)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b81e5152-dfdd-415d-ac0b-8e870d35182b")
+		(property "Sheetname" "MCU"
+			(at 95.25 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 95.25 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
