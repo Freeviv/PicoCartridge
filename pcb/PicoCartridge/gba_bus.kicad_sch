@@ -2092,6 +2092,18 @@
 		)
 		(uuid "fab9e03a-e7b1-45c0-8d88-1a7c6580f8f6")
 	)
+	(hierarchical_label "GBA_PWR_DET"
+		(shape output)
+		(at 127 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fe9f86b-8edf-443e-bc11-53cfac0d35c4")
+	)
 	(hierarchical_label "GBA_Bus"
 		(shape bidirectional)
 		(at 118.11 120.65 0)

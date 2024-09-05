@@ -1104,6 +1104,18 @@
 		)
 		(uuid "2e6af277-7a8f-4b43-834f-d938cb34f310")
 	)
+	(hierarchical_label "USB_PWR_DET"
+		(shape output)
+		(at 128.27 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc5ea1d8-ec2c-408a-8b6f-d42115a35f2c")
+	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 80.01 60.96 0)

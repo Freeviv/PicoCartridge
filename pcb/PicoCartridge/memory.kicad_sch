@@ -517,6 +517,18 @@
 		)
 		(uuid "a2dfb7f2-9d23-4a31-81bf-08c54df5b7af")
 	)
+	(hierarchical_label "SD_CARD_BUS"
+		(shape bidirectional)
+		(at 78.74 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e447248-78bf-45f2-a28e-354589a2b645")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 138.43 109.22 0)

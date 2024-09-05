@@ -5,9 +5,59 @@
 	(uuid "369b8492-ac84-4ba1-9646-4010d0ed9f44")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 138.43 30.48) (xy 156.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f160802-47f7-44aa-875a-4df3229a68c6")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fc9352-abf7-4ecb-9e2f-3b4b30d9b979")
+	)
+	(wire
+		(pts
+			(xy 73.66 69.85) (xy 95.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f5d87a-801c-4ff4-87bd-341cac4aa227")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca2c7f-c49c-42d3-8ad6-9a4eb094d621")
+	)
+	(wire
+		(pts
+			(xy 138.43 67.31) (xy 156.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee918c14-e5b0-42fe-9792-da886e105367")
+	)
 	(sheet
-		(at 21.59 25.4)
-		(size 39.37 21.59)
+		(at 34.29 25.4)
+		(size 39.37 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +68,7 @@
 		)
 		(uuid "02eb5f96-8983-4900-a047-3098322cb1f3")
 		(property "Sheetname" "PSU"
-			(at 21.59 24.6884 0)
+			(at 34.29 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +77,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 21.59 47.5746 0)
+			(at 34.29 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +94,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 64.77)
+		(at 156.21 54.61)
 		(size 39.37 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +106,7 @@
 		)
 		(uuid "6f37d299-ac03-42da-8fb5-807666d0a8d6")
 		(property "Sheetname" "GBA Bus"
-			(at 162.56 64.0584 0)
+			(at 156.21 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "gba_bus.kicad_sch"
-			(at 162.56 88.2146 0)
+			(at 156.21 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,7 +124,7 @@
 			)
 		)
 		(pin "GBA_Bus" bidirectional
-			(at 162.56 68.58 180)
+			(at 156.21 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,6 +132,16 @@
 				(justify left)
 			)
 			(uuid "bd4166d0-8f72-43d3-a5c5-0d7215784bb6")
+		)
+		(pin "GBA_PWR_DET" output
+			(at 156.21 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "118f2395-9de7-40df-b239-efb56afa0e94")
 		)
 		(instances
 			(project "PicoCartridge"
@@ -92,8 +152,8 @@
 		)
 	)
 	(sheet
-		(at 21.59 62.23)
-		(size 29.21 22.86)
+		(at 34.29 54.61)
+		(size 39.37 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -104,7 +164,7 @@
 		)
 		(uuid "73d0ecf8-0dc1-46ca-9d60-4e00cfae362a")
 		(property "Sheetname" "USB"
-			(at 21.59 61.5184 0)
+			(at 34.29 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,7 +173,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 21.59 85.6746 0)
+			(at 34.29 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +182,7 @@
 			)
 		)
 		(pin "USB_BUS" bidirectional
-			(at 50.8 66.04 0)
+			(at 73.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,6 +190,16 @@
 				(justify right)
 			)
 			(uuid "9445746a-613d-4785-a804-15d3432ab21e")
+		)
+		(pin "USB_PWR_DET" output
+			(at 73.66 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4525b25f-38ea-4e25-9f51-c77c58513c45")
 		)
 		(instances
 			(project "PicoCartridge"
@@ -140,8 +210,8 @@
 		)
 	)
 	(sheet
-		(at 160.02 25.4)
-		(size 48.26 26.67)
+		(at 156.21 25.4)
+		(size 39.37 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -152,7 +222,7 @@
 		)
 		(uuid "864b71b1-fdd0-4b9b-bab0-5640e9a99f9f")
 		(property "Sheetname" "Memory"
-			(at 160.02 24.6884 0)
+			(at 156.21 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,13 +231,23 @@
 			)
 		)
 		(property "Sheetfile" "memory.kicad_sch"
-			(at 160.02 52.6546 0)
+			(at 156.21 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SD_CARD_BUS" bidirectional
+			(at 156.21 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3dc55bf1-46d7-46b4-a806-0edf9c17576f")
 		)
 		(instances
 			(project "PicoCartridge"
@@ -179,7 +259,7 @@
 	)
 	(sheet
 		(at 95.25 25.4)
-		(size 43.18 60.96)
+		(size 43.18 52.07)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -199,13 +279,63 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 95.25 86.9446 0)
+			(at 95.25 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB_PWR_DET" input
+			(at 95.25 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c3284f6-d5b2-4462-9dbc-1aed1452832b")
+		)
+		(pin "GBA_BUS_PWR_DET" input
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20d3eb8d-e49b-44b3-b962-4a6047120eb0")
+		)
+		(pin "SD_BUS" bidirectional
+			(at 138.43 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a9ed778-514f-4821-a5f4-261f5bf81afc")
+		)
+		(pin "GBA_Bus" bidirectional
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b25c7d2-3b8f-43b5-9566-857f5e6919b1")
+		)
+		(pin "USB_BUS" bidirectional
+			(at 95.25 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8940b84-2d24-47aa-b521-1f23d5dae952")
 		)
 		(instances
 			(project "PicoCartridge"
