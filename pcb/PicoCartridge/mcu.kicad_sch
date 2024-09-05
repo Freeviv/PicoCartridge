@@ -1928,7 +1928,7 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1945,7 +1945,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1971,7 +1971,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1989,7 +1989,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2027,7 +2027,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -8216,72 +8216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 58.42 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18c8b4fc-9ad3-41bc-a574-7ece508d6115")
-		(property "Reference" "#PWR024"
-			(at 58.42 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 58.42 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 58.42 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "016fcc13-9801-4f51-bf31-ce49d300af1d")
-		)
-		(instances
-			(project "PicoCartridge"
-				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 15.24 236.22 0)
 		(unit 1)
@@ -9103,6 +9037,72 @@
 			(project "PicoCartridge"
 				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
 					(reference "R310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4249d795-665e-41e1-a3b1-a4d1283bd535")
+		(property "Reference" "#PWR012"
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 228.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87bcd6bc-c694-4583-9d6e-54ded20ce031")
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9960,6 +9960,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 38.1 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bf69e6f-367d-4a49-acd0-9597c1fc40ae")
+		(property "Reference" "#PWR024"
+			(at 38.1 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 38.1 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 38.1 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07b70f69-193e-4163-81f2-4b6bd0b808ad")
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 111.76 0)
 		(mirror y)
@@ -10029,72 +10095,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 46.99 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "659d1b70-5c19-42c3-9fd3-b891247fa8cd")
-		(property "Reference" "#PWR016"
-			(at 46.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 46.99 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 46.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "565b7bfc-4445-4a7f-8b11-a023c3a6c040")
-		)
-		(instances
-			(project "PicoCartridge"
-				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 29.21 74.93 0)
 		(unit 1)
@@ -10155,6 +10155,138 @@
 			(project "PicoCartridge"
 				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 46.99 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69541332-3f92-4255-a917-828d3a87dc16")
+		(property "Reference" "#PWR08"
+			(at 46.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 46.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2cd31eb-9a36-464a-98a3-29a6cc2a07d0")
+		)
+		(instances
+			(project "PicoCartridge"
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 119.38 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6954e8f1-6a8f-4a04-a996-8ee0a4fb56bc")
+		(property "Reference" "#PWR029"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e45cbed-6571-4e9e-9d9d-e80813567fa0")
+		)
+		(instances
+			(project ""
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10494,72 +10626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 119.38 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d98044c-2f40-4184-9d2b-b7a317aafec0")
-		(property "Reference" "#PWR08"
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 119.38 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c91b34-554d-4752-9ce8-17cbf1483f2e")
-		)
-		(instances
-			(project ""
-				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 160.02 270)
 		(mirror x)
@@ -10766,17 +10832,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 228.6 49.53 0)
+		(lib_id "power:+3.3V")
+		(at 58.42 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95839597-41f1-402f-99bb-3a61dd38ae71")
-		(property "Reference" "#PWR012"
-			(at 228.6 53.34 0)
+		(uuid "873ad99f-b1ef-44f9-987e-fe9aa63932bb")
+		(property "Reference" "#PWR016"
+			(at 58.42 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10784,8 +10850,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 228.6 44.45 0)
+		(property "Value" "+3.3V"
+			(at 58.42 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +10859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 49.53 0)
+			(at 58.42 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +10868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 49.53 0)
+			(at 58.42 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,8 +10876,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 228.6 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10820,12 +10886,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf638cd4-e71b-4919-801d-6e67ec81f98a")
+			(uuid "f848aef4-4d5a-480b-8096-e4500b395375")
 		)
 		(instances
 			(project "PicoCartridge"
 				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11167,72 +11233,6 @@
 			(project "PicoCartridge"
 				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
 					(reference "C317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 38.1 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab5827b3-8c27-4906-a165-975119e2fbe7")
-		(property "Reference" "#PWR028"
-			(at 38.1 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 38.1 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 38.1 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdb1f18e-bf1b-4218-bbb4-fc9755e27b7c")
-		)
-		(instances
-			(project "PicoCartridge"
-				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/b81e5152-dfdd-415d-ac0b-8e870d35182b"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
