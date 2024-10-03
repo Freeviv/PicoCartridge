@@ -354,6 +354,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -489,6 +610,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a443831-fb2b-4f36-adcb-45a0e2cb7988")
+	)
+	(wire
+		(pts
 			(xy 138.43 88.9) (xy 149.86 88.9)
 		)
 		(stroke
@@ -496,6 +627,16 @@
 			(type default)
 		)
 		(uuid "66cd7793-15e9-4973-a507-b9daf6691d09")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7752f513-741f-45eb-9f2d-0dab83b4eaea")
 	)
 	(wire
 		(pts
@@ -509,6 +650,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8111567e-3c04-484a-a77e-47dd35c82fe4")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2bbaf0-abf4-4041-9db0-564c4f527ceb")
+	)
+	(wire
+		(pts
 			(xy 138.43 105.41) (xy 138.43 88.9)
 		)
 		(stroke
@@ -517,15 +678,178 @@
 		)
 		(uuid "a2dfb7f2-9d23-4a31-81bf-08c54df5b7af")
 	)
-	(hierarchical_label "SD_CARD_BUS"
-		(shape bidirectional)
-		(at 78.74 82.55 0)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9894e68-a71d-4f77-84d3-d0afae592668")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b762c34b-7312-46be-9d3f-0cb575c7ca20")
+	)
+	(text "MicroSD	4bit SDIO	SPI\n2		DAT3		nCS\n3		CMD			DI\n5		CLK			CLK\n7		DAT0		DO\n8		DAT1		NC/ISR\n1		DAT2		NC"
+		(exclude_from_sim no)
+		(at 58.166 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5778977e-7008-4069-a9b5-4b5da2a0c0f2")
+	)
+	(label "SD_CMD"
+		(at 129.54 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
+		)
+		(uuid "0c33fd05-8df7-4f25-b15c-0e2e64436a45")
+	)
+	(label "SD_DAT0"
+		(at 129.54 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8a5de0-3847-49be-8257-cfd809730b1e")
+	)
+	(label "SD_DAT2"
+		(at 129.54 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "345ae25c-8bf2-458e-ae86-3044f147489a")
+	)
+	(label "SD_DAT1"
+		(at 129.54 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41879647-bd16-4fb8-958f-de0bbbf601d5")
+	)
+	(label "SPI0_TX"
+		(at 58.42 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87a8eefb-9fba-4a71-a50f-e02538b0ff5c")
+	)
+	(label "SD_CLK"
+		(at 129.54 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "995e9cf6-a51a-447e-aabd-e5cc408bb143")
+	)
+	(label "SD_DAT1"
+		(at 58.42 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a119c730-5b5d-45ae-865e-6f6f504d7301")
+	)
+	(label "SD_DAT3{slash}CD"
+		(at 129.54 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acf33a97-d513-456f-9268-9d09c890535e")
+	)
+	(label "SPI0_SCLK"
+		(at 58.42 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0da85be-c541-449b-9dac-692fc49f85be")
+	)
+	(label "~{SPI0_CS}"
+		(at 58.42 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e35d6f96-7555-4db4-b0c9-281af2bf9787")
+	)
+	(label "SPI0_RX"
+		(at 58.42 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee9d02bd-f878-4393-8a82-fd935c866055")
+	)
+	(label "SD_DAT2"
+		(at 58.42 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f69a0e1c-6812-4042-b9f4-d0d8895726a9")
+	)
+	(hierarchical_label "SD_CARD_BUS"
+		(shape bidirectional)
+		(at 43.18 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "3e447248-78bf-45f2-a28e-354589a2b645")
 	)
@@ -679,6 +1003,74 @@
 			(project ""
 				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/864b71b1-fdd0-4b9b-bab0-5640e9a99f9f"
 					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 74.93 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a8d9a9-93bf-4a20-9352-015678024d97")
+		(property "Reference" "NT1"
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76218a4f-f03e-4284-b5b4-9812b758bc0b")
+		)
+		(pin "1"
+			(uuid "b4a1cfc6-f22e-4152-98b3-fbcd060dbdda")
+		)
+		(instances
+			(project ""
+				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44/864b71b1-fdd0-4b9b-bab0-5640e9a99f9f"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
