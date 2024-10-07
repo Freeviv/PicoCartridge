@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 73.66) (xy 156.21 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467008ee-30b1-4098-b196-1739d2f0bbe4")
+	)
+	(wire
+		(pts
 			(xy 138.43 41.91) (xy 156.21 41.91)
 		)
 		(stroke
@@ -47,13 +57,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 156.21 69.85)
+			(xy 138.43 55.88) (xy 156.21 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66fc9352-abf7-4ecb-9e2f-3b4b30d9b979")
+		(uuid "6230a157-eb13-4417-9e58-677ebe0b2cbb")
 	)
 	(wire
 		(pts
@@ -67,6 +77,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e71afa4-3a5b-4990-aba7-18eac824382a")
+	)
+	(wire
+		(pts
 			(xy 73.66 69.85) (xy 95.25 69.85)
 		)
 		(stroke
@@ -74,6 +94,16 @@
 			(type default)
 		)
 		(uuid "88f5d87a-801c-4ff4-87bd-341cac4aa227")
+	)
+	(bus
+		(pts
+			(xy 138.43 71.12) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91661625-dbc0-44a7-9e96-9e887707ee52")
 	)
 	(wire
 		(pts
@@ -87,6 +117,36 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 58.42) (xy 156.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78a0948-91bd-4310-a1c2-aae427ef2d86")
+	)
+	(wire
+		(pts
+			(xy 138.43 60.96) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f3fbc7-4ea6-48e0-bf49-958289cb30f0")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2839a8a-2df9-4313-a7a6-8863d79db748")
+	)
+	(wire
+		(pts
 			(xy 73.66 67.31) (xy 95.25 67.31)
 		)
 		(stroke
@@ -97,13 +157,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 67.31) (xy 156.21 67.31)
+			(xy 138.43 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee918c14-e5b0-42fe-9792-da886e105367")
+		(uuid "e486dc9a-406c-48a7-9dc5-e64a1c6a9448")
+	)
+	(bus
+		(pts
+			(xy 138.43 68.58) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cb3d99-efe2-407f-89f7-4f806e4a668c")
 	)
 	(sheet
 		(at 34.29 25.4)
@@ -173,25 +243,95 @@
 				(justify left top)
 			)
 		)
-		(pin "GBA_Bus" bidirectional
-			(at 156.21 69.85 180)
+		(pin "MFP" input
+			(at 156.21 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd4166d0-8f72-43d3-a5c5-0d7215784bb6")
+			(uuid "ba5b916d-be9b-4ec5-8966-d7cd0e8d7c2a")
+		)
+		(pin "~{GBA_Bus_RD}" output
+			(at 156.21 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4479c72f-2656-42d9-bf73-205064f7598b")
+		)
+		(pin "~{GBA_Bus_WR}" output
+			(at 156.21 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8d2bbd8-745c-4a92-a233-f913038a500a")
+		)
+		(pin "~{GBA_Bus_CS}" output
+			(at 156.21 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "670b03da-38f2-44cb-b222-c5a04aaf3f5f")
+		)
+		(pin "GbaDataBus_D[0..7]" bidirectional
+			(at 156.21 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59664a0b-5570-4ad6-99d4-e4cf211909e9")
+		)
+		(pin "GbaDataBus_A[0..15]" input
+			(at 156.21 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72f29872-95fa-4a13-8269-8287c54f866b")
+		)
+		(pin "GBA_Bus_IRQ" input
+			(at 156.21 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "baa0dee3-1316-473f-abf4-0fa36295923d")
+		)
+		(pin "~{GBA_Bus_CS2}" input
+			(at 156.21 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff46b269-1222-493b-b70c-10bea9149f2b")
 		)
 		(pin "GBA_PWR_DET" output
-			(at 156.21 67.31 180)
+			(at 156.21 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "118f2395-9de7-40df-b239-efb56afa0e94")
+			(uuid "bd0f949b-056f-462f-9608-178bd4b96cc7")
 		)
 		(instances
 			(project "PicoCartridge"
@@ -397,26 +537,6 @@
 			)
 			(uuid "3c3284f6-d5b2-4462-9dbc-1aed1452832b")
 		)
-		(pin "GBA_BUS_PWR_DET" input
-			(at 138.43 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "20d3eb8d-e49b-44b3-b962-4a6047120eb0")
-		)
-		(pin "GBA_Bus" bidirectional
-			(at 138.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9b25c7d2-3b8f-43b5-9566-857f5e6919b1")
-		)
 		(pin "USB_BUS" bidirectional
 			(at 95.25 69.85 180)
 			(effects
@@ -486,6 +606,96 @@
 				(justify right)
 			)
 			(uuid "8a032077-59ee-4958-a5e8-b2e94fa1ff45")
+		)
+		(pin "~{GBA_Bus_CS2}" input
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f9a7461-19b8-4eea-8fe3-84a930cf43e2")
+		)
+		(pin "GBA_Bus_IRQ" input
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a1453d6-ce02-4512-a563-4111cd7521c9")
+		)
+		(pin "GBA_BUS_PWR_DET" input
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5dae0003-9f23-496f-86ca-d48e83c49a29")
+		)
+		(pin "~{GBA_Bus_RD}" input
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3618b401-08b8-491c-b10b-565dc78f2b68")
+		)
+		(pin "~{GBA_Bus_CS}" input
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc466372-8e48-4bb6-961a-c55beb22b2dd")
+		)
+		(pin "~{GBA_Bus_WR}" input
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49bbb2d2-62ad-4833-bcab-276b855c97ad")
+		)
+		(pin "MFP" input
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa577c12-da19-4d7a-b1b0-18e969d608a8")
+		)
+		(pin "GbaDataBus_D[0..7]" bidirectional
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e7224f1-1799-48d4-8bee-436c48014b08")
+		)
+		(pin "GbaDataBus_A[0..15]" input
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f00a105-8b7a-4c96-b660-f4e3d78dc128")
 		)
 		(instances
 			(project "PicoCartridge"
