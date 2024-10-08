@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "4f3e6637-e19c-4a86-ab67-3112602d044b")
 		(effects
 			(font
@@ -18,13 +18,14 @@
 	(property "Value" "ProgrammerConnector"
 		(at 0 1 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "B.Fab")
 		(uuid "af257e80-6d77-4ad5-9deb-cc9d1be0e665")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(property "Footprint" ""
@@ -74,7 +75,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "25383c41-fce2-4631-906e-4a7752dc4905")
 	)
 	(fp_line
@@ -84,7 +85,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "2b11ae17-e2c6-43d6-9b9d-c70fb42b0df9")
 	)
 	(fp_rect
@@ -95,55 +96,56 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "1b4d404a-22e4-4751-909f-35e606049ddf")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "B.Fab")
 		(uuid "948e0463-71ac-4eeb-8fed-b59a245a1d4e")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 	)
 	(pad "1" smd circle
 		(at -4 -2)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "c797a771-07d7-4dda-b076-22a9c0554e1e")
 	)
 	(pad "2" smd circle
 		(at 0 -2)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "94bc09df-26f0-4dac-966f-107c38182710")
 	)
 	(pad "3" smd circle
 		(at 4 -2)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "58d6cf42-d199-4283-ab7a-08764dcc53bb")
 	)
 	(pad "4" smd circle
 		(at -4 2)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "e5fbe381-048d-4c3d-a079-9a8f517d3d61")
 	)
 	(pad "5" smd circle
 		(at 0 2)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "16cc3dc0-58d4-4fdc-8ce8-510a8b360552")
 	)
 	(pad "6" smd circle
 		(at 4 2)
 		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "986c5374-ac02-4259-b49c-31da5df760a6")
 	)
 )
