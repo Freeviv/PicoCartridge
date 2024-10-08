@@ -4165,15 +4165,6 @@
 		(uuid "5db751a5-d3db-4c32-89a0-4396b7e91990")
 	)
 	(bus_entry
-		(at 276.86 78.74)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d741f81-0d6f-4965-9f44-a5365a6cd9d0")
-	)
-	(bus_entry
 		(at 294.64 137.16)
 		(size 2.54 2.54)
 		(stroke
@@ -4235,15 +4226,6 @@
 			(type default)
 		)
 		(uuid "aa3acc85-a1a0-43a7-9617-4b2bc7e5cea0")
-	)
-	(bus_entry
-		(at 276.86 76.2)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac92a2a8-9c18-46dd-add2-ba1fabdcbf73")
 	)
 	(bus_entry
 		(at 294.64 114.3)
@@ -4730,16 +4712,6 @@
 			(type default)
 		)
 		(uuid "2cf8facf-5107-4091-b482-652bc7921543")
-	)
-	(wire
-		(pts
-			(xy 243.84 208.28) (xy 266.7 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d63d3b5-a55a-4b4f-bda2-e4b324c41048")
 	)
 	(wire
 		(pts
@@ -5320,16 +5292,6 @@
 			(type default)
 		)
 		(uuid "751a9b11-07ce-429a-97c3-e340bb6d1410")
-	)
-	(bus
-		(pts
-			(xy 283.21 82.55) (xy 279.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a2bf31-045d-4994-899f-6bdcb2c2aa7d")
 	)
 	(wire
 		(pts
@@ -6071,16 +6033,6 @@
 		)
 		(uuid "b66c5790-d01e-4f34-a57e-46e8122ff70c")
 	)
-	(bus
-		(pts
-			(xy 279.4 78.74) (xy 279.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b680e792-6206-41d3-8449-81dc08f8b76d")
-	)
 	(wire
 		(pts
 			(xy 229.87 165.1) (xy 243.84 165.1)
@@ -6140,16 +6092,6 @@
 			(type default)
 		)
 		(uuid "c1310084-d86e-40b8-918d-607447933b10")
-	)
-	(bus
-		(pts
-			(xy 279.4 81.28) (xy 279.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b416c0-e563-4f67-80e5-c67e37d5459f")
 	)
 	(wire
 		(pts
@@ -7037,17 +6979,6 @@
 		)
 		(uuid "12833e9a-8495-45ba-89f9-888f4c624ce0")
 	)
-	(label "USB_DM"
-		(at 276.86 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "128fc86a-7f93-4bc3-8d4a-a6bdf3ca8b4a")
-	)
 	(label "GbaDataBus_A11"
 		(at 294.64 134.62 180)
 		(fields_autoplaced yes)
@@ -7135,6 +7066,17 @@
 			(justify right bottom)
 		)
 		(uuid "2869cd34-a30f-4158-acf1-bdd0cd961112")
+	)
+	(label "UsbDM"
+		(at 269.24 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f2ba8b0-7082-4a9a-a872-aadbbe990bb9")
 	)
 	(label "I2C1_SDA"
 		(at 78.74 224.79 180)
@@ -7279,17 +7221,6 @@
 		)
 		(uuid "4986d145-aab4-4c75-8a34-3492c1a9d1d3")
 	)
-	(label "USB_DP"
-		(at 276.86 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b754a1b-6054-4c86-adab-2befd3e68dd3")
-	)
 	(label "SPI0_RX"
 		(at 260.35 177.8 180)
 		(fields_autoplaced yes)
@@ -7344,6 +7275,17 @@
 			(justify right bottom)
 		)
 		(uuid "5a16ae33-3e98-4ee5-8e2d-bd45f8dcb17a")
+	)
+	(label "UsbDP"
+		(at 269.24 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5da84179-00e1-4cd3-a360-36e75fbbd4e5")
 	)
 	(label "XOUT"
 		(at 162.56 127 0)
@@ -7876,18 +7818,6 @@
 		)
 		(uuid "2b02b61b-2e82-4c84-a810-73cbebd9fd24")
 	)
-	(hierarchical_label "USB_PWR_DET"
-		(shape input)
-		(at 266.7 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e0ef00b-f246-4da1-85bc-0f6dd2b6e103")
-	)
 	(hierarchical_label "GBA_BUS_PWR_DET"
 		(shape input)
 		(at 266.7 205.74 0)
@@ -7899,18 +7829,6 @@
 			(justify left)
 		)
 		(uuid "310ab230-f5c5-474a-a40e-c52584290e0f")
-	)
-	(hierarchical_label "USB_BUS"
-		(shape bidirectional)
-		(at 283.21 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40d63f52-14b7-4d31-be1e-db48551b0b02")
 	)
 	(hierarchical_label "MFP"
 		(shape input)

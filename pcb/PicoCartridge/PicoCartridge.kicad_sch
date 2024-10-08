@@ -85,16 +85,6 @@
 		)
 		(uuid "7e71afa4-3a5b-4990-aba7-18eac824382a")
 	)
-	(wire
-		(pts
-			(xy 73.66 69.85) (xy 95.25 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f5d87a-801c-4ff4-87bd-341cac4aa227")
-	)
 	(bus
 		(pts
 			(xy 138.43 71.12) (xy 156.21 71.12)
@@ -147,16 +137,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 95.25 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddca2c7f-c49c-42d3-8ad6-9a4eb094d621")
-	)
-	(wire
-		(pts
 			(xy 138.43 76.2) (xy 156.21 76.2)
 		)
 		(stroke
@@ -174,44 +154,6 @@
 			(type default)
 		)
 		(uuid "f7cb3d99-efe2-407f-89f7-4f806e4a668c")
-	)
-	(sheet
-		(at 34.29 25.4)
-		(size 39.37 22.86)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "02eb5f96-8983-4900-a047-3098322cb1f3")
-		(property "Sheetname" "PSU"
-			(at 34.29 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "psu.kicad_sch"
-			(at 34.29 48.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PicoCartridge"
-				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
-					(page "3")
-				)
-			)
-		)
 	)
 	(sheet
 		(at 156.21 54.61)
@@ -337,64 +279,6 @@
 			(project "PicoCartridge"
 				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 34.29 54.61)
-		(size 39.37 22.86)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "73d0ecf8-0dc1-46ca-9d60-4e00cfae362a")
-		(property "Sheetname" "USB"
-			(at 34.29 53.8984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb.kicad_sch"
-			(at 34.29 78.0546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB_BUS" bidirectional
-			(at 73.66 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9445746a-613d-4785-a804-15d3432ab21e")
-		)
-		(pin "USB_PWR_DET" output
-			(at 73.66 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4525b25f-38ea-4e25-9f51-c77c58513c45")
-		)
-		(instances
-			(project "PicoCartridge"
-				(path "/369b8492-ac84-4ba1-9646-4010d0ed9f44"
-					(page "6")
 				)
 			)
 		)
@@ -526,26 +410,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "USB_PWR_DET" input
-			(at 95.25 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3c3284f6-d5b2-4462-9dbc-1aed1452832b")
-		)
-		(pin "USB_BUS" bidirectional
-			(at 95.25 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a8940b84-2d24-47aa-b521-1f23d5dae952")
 		)
 		(pin "SPIO_SCLK" output
 			(at 138.43 29.21 0)
