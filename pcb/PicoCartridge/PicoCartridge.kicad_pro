@@ -428,7 +428,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PicoCartridge"
+    ]
   },
   "meta": {
     "filename": "PicoCartridge.kicad_pro",
@@ -713,20 +715,12 @@
       "MCU"
     ],
     [
-      "02eb5f96-8983-4900-a047-3098322cb1f3",
-      "PSU"
-    ],
-    [
       "864b71b1-fdd0-4b9b-bab0-5640e9a99f9f",
       "Memory"
     ],
     [
       "6f37d299-ac03-42da-8fb5-807666d0a8d6",
       "GBA Bus"
-    ],
-    [
-      "73d0ecf8-0dc1-46ca-9d60-4e00cfae362a",
-      "USB"
     ]
   ],
   "text_variables": {}
