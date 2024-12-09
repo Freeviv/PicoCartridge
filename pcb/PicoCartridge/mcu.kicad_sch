@@ -7019,7 +7019,7 @@
 		)
 		(uuid "8562bb52-bef0-4760-86df-0d4766aeb8d8")
 	)
-	(label "GbaDataBus_A00"
+	(label "GbaDataBus_A0"
 		(at 294.64 106.68 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7096,7 +7096,7 @@
 		)
 		(uuid "14b453b8-f9c2-4ef4-9363-66a56243a279")
 	)
-	(label "GbaDataBus_A01"
+	(label "GbaDataBus_A1"
 		(at 294.64 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7107,7 +7107,7 @@
 		)
 		(uuid "18291bae-17dc-4894-b72e-78620bcc4b59")
 	)
-	(label "GbaDataBus_A07"
+	(label "GbaDataBus_A7"
 		(at 294.64 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7129,7 +7129,7 @@
 		)
 		(uuid "1e45c35e-4f9b-48a1-80c6-db69d477b13c")
 	)
-	(label "GbaDataBus_A02"
+	(label "GbaDataBus_A2"
 		(at 294.64 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7404,7 +7404,7 @@
 		)
 		(uuid "60ff9ad5-31bc-4aa7-9261-1c78e0da6f86")
 	)
-	(label "GbaDataBus_A05"
+	(label "GbaDataBus_A5"
 		(at 294.64 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7580,7 +7580,7 @@
 		)
 		(uuid "90f4be45-afab-4eae-8725-8fa73e415ecb")
 	)
-	(label "GbaDataBus_A09"
+	(label "GbaDataBus_A9"
 		(at 294.64 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7690,7 +7690,7 @@
 		)
 		(uuid "b0db6e37-123e-4c5f-a377-528336f513b8")
 	)
-	(label "GbaDataBus_A08"
+	(label "GbaDataBus_A8"
 		(at 294.64 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7745,7 +7745,7 @@
 		)
 		(uuid "c2850f3a-04fe-4c2c-972c-be018dce2a4d")
 	)
-	(label "GbaDataBus_A04"
+	(label "GbaDataBus_A4"
 		(at 294.64 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7767,7 +7767,7 @@
 		)
 		(uuid "c7084067-65aa-4443-8cff-3fc531c0f558")
 	)
-	(label "GbaDataBus_A06"
+	(label "GbaDataBus_A6"
 		(at 294.64 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7811,7 +7811,7 @@
 		)
 		(uuid "d0272637-4a7c-4fce-93c3-0b732baa0d15")
 	)
-	(label "GbaDataBus_A03"
+	(label "GbaDataBus_A3"
 		(at 294.64 114.3 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8985,7 +8985,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 34.29 227.33 90)
+		(at 34.29 227.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8999,7 +8999,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Crystal"
@@ -9008,10 +9008,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal"
 			(at 34.29 227.33 0)
 			(effects
 				(font
@@ -9020,7 +9020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070533_JYJE-Q2632768BWNAC_C2681251.pdf"
 			(at 34.29 227.33 0)
 			(effects
 				(font
@@ -9031,6 +9031,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2681251"
+			(at 34.29 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1710,7 +1710,7 @@
 		)
 		(uuid "0fe529f7-87f1-4b8b-8ae0-5e64a16ce892")
 	)
-	(label "GbaDataBus_A08"
+	(label "GbaDataBus_A8"
 		(at 78.74 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1754,7 +1754,7 @@
 		)
 		(uuid "2b69f701-4314-42f4-925b-ae798ad5cfaa")
 	)
-	(label "GbaDataBus_A06"
+	(label "GbaDataBus_A6"
 		(at 78.74 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1776,7 +1776,7 @@
 		)
 		(uuid "397c8f65-8733-4b7b-a7dc-87b2142ca92b")
 	)
-	(label "GbaDataBus_A01"
+	(label "GbaDataBus_A1"
 		(at 78.74 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1787,7 +1787,7 @@
 		)
 		(uuid "4f6f8371-7652-4054-908e-7d4e00d3c93a")
 	)
-	(label "GbaDataBus_A02"
+	(label "GbaDataBus_A2"
 		(at 78.74 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1809,7 +1809,7 @@
 		)
 		(uuid "5f97f898-d074-401f-8eb1-04e7ad58ddee")
 	)
-	(label "GbaDataBus_A07"
+	(label "GbaDataBus_A7"
 		(at 78.74 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1831,7 +1831,7 @@
 		)
 		(uuid "6f9f32f2-1e51-44fd-8252-3b28e54ded7a")
 	)
-	(label "GbaDataBus_A04"
+	(label "GbaDataBus_A4"
 		(at 78.74 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1842,7 +1842,7 @@
 		)
 		(uuid "91a98108-0f02-42ab-8fd1-da5a36d0da3f")
 	)
-	(label "GbaDataBus_A09"
+	(label "GbaDataBus_A9"
 		(at 78.74 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1897,7 +1897,7 @@
 		)
 		(uuid "baf566a2-d1f2-47ac-be44-d5857abe2d3a")
 	)
-	(label "GbaDataBus_A05"
+	(label "GbaDataBus_A5"
 		(at 78.74 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1919,7 +1919,7 @@
 		)
 		(uuid "ca944822-b691-4660-857e-00085bba7c5b")
 	)
-	(label "GbaDataBus_A00"
+	(label "GbaDataBus_A0"
 		(at 78.74 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1952,7 +1952,7 @@
 		)
 		(uuid "e59d3d95-378d-44be-8309-90e9066a83da")
 	)
-	(label "GbaDataBus_A03"
+	(label "GbaDataBus_A3"
 		(at 78.74 62.23 180)
 		(fields_autoplaced yes)
 		(effects
